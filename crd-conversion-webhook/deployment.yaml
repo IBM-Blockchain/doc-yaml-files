@@ -53,7 +53,7 @@ spec:
         fsGroup: 2000
       containers:
         - name: "ibp-webhook"
-          image: "cp.icr.io/cp/ibp-crdwebhook:2.5.3-20221207-amd64"
+          image: "cp.icr.io/cp/ibp-crdwebhook:2.5.3-20230104-amd64"
           imagePullPolicy: Always
           securityContext:
             privileged: false
